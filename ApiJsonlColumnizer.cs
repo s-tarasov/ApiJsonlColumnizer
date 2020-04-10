@@ -31,7 +31,7 @@ namespace ApiJsonlColumnizer
         #region Properties
 
         protected JsonColumn[] ColumnList = new[] {
-            new JsonColumn("time"),
+            new JsonColumn("@timestamp"),
             new JsonColumn("api"),
             new JsonColumn("request.url"),
             new JsonColumn("response.body"),
